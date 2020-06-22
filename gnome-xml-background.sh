@@ -49,14 +49,3 @@ done <<<$(find "$1" -maxdepth 1 -type f | grep -Ei '\.(jpg|png)$')
 }
 
 echo "</background>"
-
-
-#<static>
-#  <duration>600</duration>
-#  <file>/home/alex/Nextcloud/Wallpapers/adb_boxes.png</file>
-#</static>
-#<transition>
-#  <duration>0.5</duration>
-#  <from>/home/alex/Nextcloud/Wallpapers/adb_boxes.png</from>
-#  <to>/home/alex/Nextcloud/Wallpapers/adb_bg2.png</to>
-#</transition>
